@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "test": "jest",
+    "test:watch": "npm test -- --watch"
   },
   "repository": {
     "type": "git",
@@ -12,8 +16,16 @@
   },
   "author": "Alberto",
   "license": "ISC",
+  "devDependencies": {
+    "enzyme": "^2.4.1",
+    "jest": "^16.0.0",
+    "react-addons-test-utils": "^15.3.0",
+    "react-scripts": "^0.4.0"
+  },
   "dependencies": {
-    "bootstrap": "^3.3.7",
-    "jquery": "^2.1.4"
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2"
   }
 }
